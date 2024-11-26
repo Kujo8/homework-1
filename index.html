@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- БЭМ - блок-элемент-модификатор -->
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item">
+            <a href="#" class="header__nav__list__item__link">About us</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#" class="header__nav__list__item__link">Careers</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#" class="header__nav__list__item__link">Resources</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#" class="header__nav__list__item__link">Login</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a
+              href="#"
+              class="header__nav__list__item__link header__nav__list__item__link_button"
+            >
+              Get access
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero__container">
+        <h2 class="hero__title">
+          Where creators
+          <br />
+          do business
+        </h2>
+        <p class="hero__subtitle">
+          Passionfroot lets you handle sponsorships, collaboration requests,
+          bookings, and payments – in one single place. Stop feeling overwhelmed
+          by the opportunities. Start seizing them.
+        </p>
+        <button class="hero__button">Get access</button>
+      </div>
+    </section>
+
+    <!-- Creators -->
+    <section class="creators">
+      <div class="creators__container">
+        <h2 class="creators__title">
+          For <br />
+          all creators
+        </h2>
+
+        <!-- Creators list -->
+        <ul class="creators__list">
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Podcasters</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Youtubers</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Newsletter Writers</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Media companies</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">TikTokers</a>
+          </li>
+          <li class="creators__list__item">
+            <a href="" class="creators__list__item__link">Influencers</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cons list -->
+    <section class="cons">
+      <div class="cons__container">
+        <!-- list of cons -->
+        <div class="cons__list__container">
+          <h4 class="cons__list__heading">
+            Is running the show running <br />
+            you down, too?
+          </h4>
+          <ul class="cons__list">
+            <li class="cons__list__item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V20C24 22.2091 22.2091 24 20 24H4C1.79086 24 0 22.2091 0 20V4Z" fill="#EDA6E6"/>
+<path d="M15.2131 6.74433C15.4755 6.482 15.6964 6.37154 15.8759 6.41296C16.0554 6.42677 16.2832 6.57174 16.5593 6.84788C16.8354 7.12401 16.9873 7.35873 17.0149 7.55202C17.0425 7.71771 16.9252 7.93171 16.6629 8.19404L13.1835 11.6734L16.87 15.3597C17.1323 15.6221 17.2496 15.8499 17.222 16.0432C17.1944 16.2365 17.0425 16.4712 16.7664 16.7473C16.4765 17.0373 16.2348 17.1961 16.0415 17.2237C15.8482 17.2513 15.6204 17.1339 15.3581 16.8716L11.6717 13.1852L8.21307 16.6438C7.95074 16.9061 7.72983 17.0304 7.55034 17.0166C7.35705 16.989 7.12233 16.8371 6.8462 16.5609C6.57006 16.2848 6.42509 16.057 6.41128 15.8775C6.38367 15.6842 6.50102 15.4564 6.76335 15.1941L10.222 11.7355L6.74264 8.25617C6.48031 7.99384 6.36296 7.76603 6.39057 7.57274C6.41818 7.37944 6.57696 7.13782 6.86691 6.84788C7.14304 6.57174 7.37776 6.41986 7.57105 6.39225C7.76435 6.36464 7.99216 6.48199 8.25449 6.74432L11.7338 10.2236L15.2131 6.74433Z" fill="white"/>
+</svg>
+
+              You waste 70% of time on admin work
+            </li>
+            <li class="cons__list__item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V20C24 22.2091 22.2091 24 20 24H4C1.79086 24 0 22.2091 0 20V4Z" fill="#EDA6E6"/>
+<path d="M15.2131 6.74433C15.4755 6.482 15.6964 6.37154 15.8759 6.41296C16.0554 6.42677 16.2832 6.57174 16.5593 6.84788C16.8354 7.12401 16.9873 7.35873 17.0149 7.55202C17.0425 7.71771 16.9252 7.93171 16.6629 8.19404L13.1835 11.6734L16.87 15.3597C17.1323 15.6221 17.2496 15.8499 17.222 16.0432C17.1944 16.2365 17.0425 16.4712 16.7664 16.7473C16.4765 17.0373 16.2348 17.1961 16.0415 17.2237C15.8482 17.2513 15.6204 17.1339 15.3581 16.8716L11.6717 13.1852L8.21307 16.6438C7.95074 16.9061 7.72983 17.0304 7.55034 17.0166C7.35705 16.989 7.12233 16.8371 6.8462 16.5609C6.57006 16.2848 6.42509 16.057 6.41128 15.8775C6.38367 15.6842 6.50102 15.4564 6.76335 15.1941L10.222 11.7355L6.74264 8.25617C6.48031 7.99384 6.36296 7.76603 6.39057 7.57274C6.41818 7.37944 6.57696 7.13782 6.86691 6.84788C7.14304 6.57174 7.37776 6.41986 7.57105 6.39225C7.76435 6.36464 7.99216 6.48199 8.25449 6.74432L11.7338 10.2236L15.2131 6.74433Z" fill="white"/>
+</svg>
+
+              Juggling 10+ tools to handle requests and payments
+            </li>
+            <li class="cons__list__item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V20C24 22.2091 22.2091 24 20 24H4C1.79086 24 0 22.2091 0 20V4Z" fill="#EDA6E6"/>
+<path d="M15.2131 6.74433C15.4755 6.482 15.6964 6.37154 15.8759 6.41296C16.0554 6.42677 16.2832 6.57174 16.5593 6.84788C16.8354 7.12401 16.9873 7.35873 17.0149 7.55202C17.0425 7.71771 16.9252 7.93171 16.6629 8.19404L13.1835 11.6734L16.87 15.3597C17.1323 15.6221 17.2496 15.8499 17.222 16.0432C17.1944 16.2365 17.0425 16.4712 16.7664 16.7473C16.4765 17.0373 16.2348 17.1961 16.0415 17.2237C15.8482 17.2513 15.6204 17.1339 15.3581 16.8716L11.6717 13.1852L8.21307 16.6438C7.95074 16.9061 7.72983 17.0304 7.55034 17.0166C7.35705 16.989 7.12233 16.8371 6.8462 16.5609C6.57006 16.2848 6.42509 16.057 6.41128 15.8775C6.38367 15.6842 6.50102 15.4564 6.76335 15.1941L10.222 11.7355L6.74264 8.25617C6.48031 7.99384 6.36296 7.76603 6.39057 7.57274C6.41818 7.37944 6.57696 7.13782 6.86691 6.84788C7.14304 6.57174 7.37776 6.41986 7.57105 6.39225C7.76435 6.36464 7.99216 6.48199 8.25449 6.74432L11.7338 10.2236L15.2131 6.74433Z" fill="white"/>
+</svg>
+
+              Losing track, details and your spark due to constant back and
+              forth
+            </li>
+          </ul>
+        </div>
+
+        <!-- image -->
+        <img src="./assets/img/sitting-lemon.png" alt="" class="cons__image" />
+      </div>
+    </section>
+
+    <!-- Pros list -->
+    <section class="pros">
+      <div class="pros__container">
+        <!-- list of pros -->
+        <div class="pros__list__container">
+          <h4 class="pros__list__heading">Get over the overwhelm</h4>
+          <ul class="pros__list">
+            <li class="pros__list__item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V20C24 22.2091 22.2091 24 20 24H4C1.79086 24 0 22.2091 0 20V4Z" fill="#66CCA0"/>
+                <path d="M19 7L9.375 16.625L5 12.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              Free up your time (and mind) to create more
+            </li>
+            <li class="pros__list__item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V20C24 22.2091 22.2091 24 20 24H4C1.79086 24 0 22.2091 0 20V4Z" fill="#66CCA0"/>
+                <path d="M19 7L9.375 16.625L5 12.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              Handle all partnerships in one place
+            </li>
+            <li class="pros__list__item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 4C0 1.79086 1.79086 0 4 0H20C22.2091 0 24 1.79086 24 4V20C24 22.2091 22.2091 24 20 24H4C1.79086 24 0 22.2091 0 20V4Z" fill="#66CCA0"/>
+                <path d="M19 7L9.375 16.625L5 12.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              Streamline your workflows to save time
+            </li>
+          </ul>
+        </div>
+
+        <!-- image -->
+        <img src="./assets/img/sitting-lemon.png" alt="" class="pros__image" />
+      </div>
+    </section>
+
+    <section class="companies">
+      <div class="companies__container">
+        <div class="companies__list__container">
+        <h2 class="companies__list__heading">Content that gets your creative juices going</h2>
+        <ul class="companies__list">
+          <li class="companies__list__item">
+            Newsletter
+          </li>
+          <li class="companies__list__item">
+            Podcasts
+          </li>
+          <li class="companies__list__item">
+            Blog
+          </li>
+          <li class="companies__list__item">
+            Guides
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex-container">
+        <div class="flex-item item1">
+          <p class="transparent-text">SEPTEMBER 16,2022 3 MIN READ</p>
+          <h2>You're in the wrong lane</h2>
+        </div>
+        <div class="flex-item item2">
+          <p class="transparent-text">JUNE 3,2022 3 MIN READ</p>
+          <h2>The power of a weekly review</h2>
+        </div>
+        <div class="flex-item item3">
+          <p class="transparent-text">MAY 13,2022 8 MIN READ</p>
+          <h2>How to ask better questions</h2>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
